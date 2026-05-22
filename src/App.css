@@ -396,3 +396,34 @@ button {
   color: #f0c040;
   border-color: #1a1a2e;
 }
+
+.btn-primary {
+  background: #1a1a2e;
+  color: #f0c040;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 150ms ease;
+  letter-spacing: 0.03em;
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+}
+
+.btn-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5b8cff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: opacity 150ms ease;
+}
+
+.btn-link:hover {
+  opacity: 0.75;
+}
