@@ -351,6 +351,24 @@ button {
   border: 1px solid #e2e4ea;
 }
 
+.settings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 8px;
+  border-bottom: 1px solid #f0f1f4;
+}
+
+.settings-label {
+  font-size: 13px;
+  font-weight: 600;
+}
 
 .pill-row {
   display: flex;
