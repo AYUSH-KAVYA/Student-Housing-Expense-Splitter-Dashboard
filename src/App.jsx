@@ -1,6 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 
+const navItems = [
+  { id: "overview",  label: "Overview"  },
+  { id: "expenses",  label: "Expenses"  },
+  { id: "settle",    label: "Settle Up" },
+  { id: "roommates", label: "Roommates" },
+  { id: "settings",  label: "Settings"  },
+];
 
 
 const roommates = [
