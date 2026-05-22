@@ -9,6 +9,14 @@ const navItems = [
   { id: "settings",  label: "Settings"  },
 ];
 
+const expenses = [
+  { id: 1, title: "Rent – May",        category: "Rent",      amount: 48000, date: "01 May", paidBy: "Arjun"  },
+  { id: 2, title: "Electricity Bill",  category: "Utility",   amount: 2340,  date: "05 May", paidBy: "Priya"  },
+  { id: 3, title: "Wi-Fi Recharge",    category: "Utility",   amount: 999,   date: "08 May", paidBy: "Dev"    },
+  { id: 4, title: "Groceries",         category: "Groceries", amount: 1870,  date: "12 May", paidBy: "Sneha"  },
+  { id: 5, title: "Gas Cylinder",      category: "Utility",   amount: 960,   date: "15 May", paidBy: "Arjun"  },
+];
+
 
 const roommates = [
   { id: 1, name: "Arjun", paid: 4200, owes: 0    },
