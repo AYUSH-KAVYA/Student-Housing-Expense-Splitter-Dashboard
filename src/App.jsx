@@ -1,6 +1,15 @@
 import { useState } from "react";
 import "./App.css";
 
+
+
+const roommates = [
+  { id: 1, name: "Arjun", paid: 4200, owes: 0    },
+  { id: 2, name: "Priya", paid: 1800, owes: 1100 },
+  { id: 3, name: "Dev",   paid: 900,  owes: 2300 },
+  { id: 4, name: "Sneha", paid: 2600, owes: 400  },
+];
+
 function Sidebar({ active, setActive }) {
   return (
     <aside className="sidebar">
