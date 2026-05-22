@@ -214,6 +214,64 @@ button {
   color: #1a1a2e;
 }
 
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.expense-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 8px;
+  border-radius: 8px;
+  transition: background 150ms ease;
+}
+
+.expense-row:hover {
+  background: #f4f5f7;
+}
+
+.expense-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.expense-title {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.expense-meta {
+  font-size: 11px;
+  color: #8b8fa8;
+}
+
+.expense-category {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #5b8cff;
+  min-width: 64px;
+  text-align: right;
+}
+
+.expense-amount {
+  font-size: 13px;
+  font-weight: 700;
+  min-width: 80px;
+  text-align: right;
+  color: #1a1a2e;
+}
+
 .roommate-list {
   display: flex;
   flex-direction: column;
